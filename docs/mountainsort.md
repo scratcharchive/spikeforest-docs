@@ -4,7 +4,7 @@ MountainSort is spike sorting software.
 
 Whereas in the past it has been tightly linked to MountainLab (a more general framework for scientific data analysis) this spike sorting algorithm is now callable directly from python.
 
-To run MountainSort spike sorting, you should first [prepare your data in .mda format](mountainsort_dataset_format)
+To run MountainSort spike sorting, you should first [prepare your data in .mda format](mountainsort_dataset_format.md)
 
 Next, you can install the following python packages:
 
