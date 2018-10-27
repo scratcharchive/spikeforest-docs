@@ -1,4 +1,4 @@
-site_name: Docalot
+site_name: Docs
 nav:
     - Home: index.md
     - MountainSort: mountainsort.md
