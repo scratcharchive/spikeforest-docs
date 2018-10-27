@@ -1,0 +1,8 @@
+site_name: Docalot
+nav:
+    - Home: index.md
+    - MountainSort: mountainsort.md
+    - MountainLab: mountainlab.md
+    - KBucket: kbucket.md
+    - SpikeForest: spikeforest.md
+
