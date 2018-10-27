@@ -1,6 +1,6 @@
-# Welcome to Docalot
+# Welcome!
 
-Miscellaneous documentation for projects developed by Jeremy Magland
+## Miscellaneous documentation for projects developed by Jeremy Magland
 
 ## Active projects
 
