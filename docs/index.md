@@ -1,6 +1,6 @@
 # Welcome!
 
-## Miscellaneous documentation for projects developed by Jeremy Magland
+## Miscellaneous documentation for projects related to spikeforest
 
 ## Active projects
 
