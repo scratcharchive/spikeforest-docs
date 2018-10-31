@@ -14,4 +14,4 @@ SpikeForest is an open-source benchmarking website for spike sorting algorithms.
 * [MountainSort](mountainsort.md)
 * [MountainLab](mountainlab.md)
 * [KBucket](kbucket.md)
-
+* [SpikeForest python package](https://github.com/magland/spikeforest)
