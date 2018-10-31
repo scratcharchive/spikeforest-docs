@@ -18,3 +18,7 @@ You can view these docs either on the [hosted website](https://users.flatironins
 * [MountainLab](mountainlab.md)
 * [KBucket](kbucket.md)
 * [SpikeForest python package](https://github.com/magland/spikeforest)
+
+## More technical info
+
+* [KBucket technical info](https://gist.github.com/magland/fb2a879975f6e1d44cc624297c1b6656#file-kbucket_technical_info-ipynb)
