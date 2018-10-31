@@ -10,6 +10,7 @@ You can view these docs either on the [hosted website](https://users.flatironins
 * [Loading SpikeForest studies in JavaScript](https://runkit.com/magland/load-spikeforest-studies-from-spikeforest)
 * [Overview of SpikeInterface, SpikeWidgets, and SpikeToolkit](https://gist.github.com/magland/e43542fe2dfe856fd04903b9ff1f8e4e)
 * [Running MountainSort directly from python](https://gist.github.com/magland/ee686398228a16adf8b95af4edde096b)
+* [Assembling the studies for MountainSort](https://gist.github.com/magland/4b97b837c594469e48b405066aa5bca5)
 
 ## Misc links:
 
