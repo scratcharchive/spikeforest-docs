@@ -18,7 +18,7 @@ You can view these docs either on the [hosted website](https://users.flatironins
 * Step 5: Compare with ground truth
 
 ## JavaScript snippets
-* [Load SpikeForest studies and datasets in JavaScript](https://runkit.com/magland/load-spikeforest-studies-from-spikeforest)
+* [Load SpikeForest studies and datasets in JavaScript](https://codesandbox.io/s/n04yp318jm)
 
 ## Misc links:
 
