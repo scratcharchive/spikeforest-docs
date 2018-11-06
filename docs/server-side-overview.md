@@ -2,9 +2,17 @@
 
 ### Q & A
 
-[How are these documents compiled into the webpage at https://users.flatironinstitute.org/~magland/docs/?](#how-are-the-docs-compiled)
+[How are these documents compiled into the webpage at https://users.flatironinstitute.org/~magland/docs/?](#how-docs-compiled)
 
-### How are the docs compiled?
+[Why is SpikeForest functionality sprawled across so many repositories?](#why-sprawled)
+
+### Why is SpikeForest sprawled across so many repositories? <a name="why-sprawled"></a>
+
+Part of the answer is that this is Jeremy's programming style. But there are a lot of advantages of modularizing a project into small units that are individually tested and versioned. It also allows a lot of flexibility in how the components are mixed and matched, as there are a lot of different use cases for spike sorting and validation software. Modularity also allows multiple collaborators to operate in different domains without stepping on toes, and it permits the project to grow without the core becoming too bulky. The highest level scripts are simple github gists that are easily shared. Gists are not permitted to have subdirectories, and so it's not too intimidating to take a look at a gist source code. This is important for transparent, open, and reproducible science, because it's one thing to open your code, and another thing for it to be readable by other scientists.
+
+Of course there are disadvantages of this approach. But those can ideally be mitigated by proper documentation in a centralized location. That is the purpose of this repository.
+
+### How are the docs compiled? <a name="how-docs-compiled"></a>
 
 There is a checked-out version in Jeremy's home directory at Flatiron Institute. Every few minutes (in a tmux session), something like the following script is run:
 
