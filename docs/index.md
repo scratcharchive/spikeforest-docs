@@ -13,12 +13,12 @@ You can view these docs either on the [hosted website](https://users.flatironins
 ## SpikeForest processing notebooks
 * Step 1: [Assemble the studies and datasets](https://gist.github.com/magland/4b97b837c594469e48b405066aa5bca5) -- [live notebook](https://colab.research.google.com/gist/magland/4b97b837c594469e48b405066aa5bca5/prepare_studies.ipynb)
 * Step 2: [Process the datasets](https://gist.github.com/magland/9d9d1a0a58aa694d5c2e71e3717dd1ef#file-notebook-ipynb) -- [live notebook](https://colab.research.google.com/gist/magland/9d9d1a0a58aa694d5c2e71e3717dd1ef) -- updated 3 Nov 2018 -- see docs on the .ipynb discussing parallelization
-* Step 3: Run spike sorting
+* Step 3: [Sort the datasets](https://gist.github.com/magland/3ba2b1fe6ff138deba0edaedb5de5867#file-notebook-ipynb) -- [live notebook](https://colab.research.google.com/gist/magland/3ba2b1fe6ff138deba0edaedb5de5867) -- added 6 Nov 2018
 * Step 4: Process sorting results
 * Step 5: Compare with ground truth
 
 ## JavaScript snippets
-* [Load SpikeForest studies and datasets in JavaScript](https://codesandbox.io/s/w7pp32vo0w) -- [The live web page](https://w7pp32vo0w.codesandbox.io/) -- updated 5 Nov 2018 -- now contains a unit waveforms image.
+* [Load SpikeForest studies and datasets in JavaScript](https://codesandbox.io/s/w7pp32vo0w) -- [The live web page](https://w7pp32vo0w.codesandbox.io/) -- updated 6 Nov 2018 -- now contains a unit waveforms image.
 
 ## Misc links:
 
