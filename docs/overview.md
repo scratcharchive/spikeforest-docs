@@ -1,4 +1,4 @@
-## SpikeForest overview
+## SpikeForest Overview
 
 ### Q & A
 
