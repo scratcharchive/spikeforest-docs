@@ -1,4 +1,4 @@
-## SpikeForest server-side overview
+## SpikeForest overview
 
 ### Q & A
 
