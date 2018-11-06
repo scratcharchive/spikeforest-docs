@@ -4,6 +4,8 @@ SpikeForest is an open-source benchmarking website for spike sorting algorithms.
 
 You can view these docs either on the [hosted website](https://users.flatironinstitute.org/~magland/docs/) or on the [github repo](https://github.com/magland/docs/blob/master/docs/index.md).
 
+[Overview of the server-side system](server-side-overview.md) -- in progress
+
 ## Overview notebooks
 
 * [Overview of SpikeInterface, SpikeWidgets, and SpikeToolkit](https://gist.github.com/magland/e43542fe2dfe856fd04903b9ff1f8e4e) -- [live notebook](https://colab.research.google.com/gist/magland/e43542fe2dfe856fd04903b9ff1f8e4e)
