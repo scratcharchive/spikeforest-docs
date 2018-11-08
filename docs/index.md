@@ -18,7 +18,9 @@ Since processing loads data from kbucket and saves data back to kbucket, it can 
 
 ## Exploring processing results
 
-The sorting results of SpikeForest can be inspected from any python notebook using the SpikeForest python API. An example of this is found (here) [TODO].
+The sorting results of SpikeForest can be inspected from any python notebook using the SpikeForest python API. An example of using this API [in this live notebook](https://colab.research.google.com/gist/magland/1028fc92568c86f6b5a6e56766f9a8f1/explore_spikeforest_results.ipynb), and the [corresponding gist](https://gist.github.com/magland/1028fc92568c86f6b5a6e56766f9a8f1#file-explore_spikeforest_results-ipynb).
+
+The source code for [this API is here](https://github.com/magland/spikeforest/blob/master/spikeforest/sfdata/sfdata.py) (TODO: document this API).
 
 ## SpikeForest processing notebooks
 
