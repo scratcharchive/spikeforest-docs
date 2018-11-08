@@ -14,11 +14,15 @@ You can view these docs either on the [hosted website](https://users.flatironins
 
 ## Batch processing
 
-Since processing loads data from kbucket and saves data back to kbucket, it can be performed on any computer. The scripts are written such that parallelization is achieved by running the same script simultaneously on many different cores / compute nodes. The current scripts used for processing [are found here](https://github.com/magland/spikeforest/tree/master/spikeforest/sf_batch). The documentation for these scripts is in the process of being assembled [TODO].
+Since processing loads data from kbucket and saves data back to kbucket, it can be performed on any computer. The scripts are written such that parallelization is achieved by running the same script simultaneously on many different cores / compute nodes. The pairio database is used to coordinate the jobs so that each script will perform different sorting jobs. The current scripts used for processing [are found here](https://github.com/magland/spikeforest/tree/master/spikeforest/sf_batch). The documentation for these scripts is in the process of being assembled [TODO].
+
+## Exploring processing results
+
+The sorting results of SpikeForest can be inspected from any python notebook using the SpikeForest python API. An example of this is found (here) [TODO].
 
 ## SpikeForest processing notebooks
 
-**This section needs to be revised -- the pipeline has been overhauled -- docs are being assembled above**
+**Note: This section needs to be revised -- the pipeline has been overhauled -- docs are being assembled above**
 
 * Step 1: [Assemble the studies and datasets](https://gist.github.com/magland/4b97b837c594469e48b405066aa5bca5) -- [live notebook](https://colab.research.google.com/gist/magland/4b97b837c594469e48b405066aa5bca5/prepare_studies.ipynb)
 * Step 2: [Process the datasets](https://gist.github.com/magland/9d9d1a0a58aa694d5c2e71e3717dd1ef#file-notebook-ipynb) -- [live notebook](https://colab.research.google.com/gist/magland/9d9d1a0a58aa694d5c2e71e3717dd1ef) -- updated 3 Nov 2018 -- see docs on the .ipynb discussing parallelization
@@ -26,7 +30,10 @@ Since processing loads data from kbucket and saves data back to kbucket, it can 
 * Step 4: Process sorting results
 * Step 5: Compare with ground truth
 
-## JavaScript snippets
+## Loading data from JavaScript
+
+**TODO: this section needs to be expanded to describe how to load spike sorting results**
+
 * [Load SpikeForest studies and datasets in JavaScript](https://codesandbox.io/s/w7pp32vo0w) -- [The live web page](https://w7pp32vo0w.codesandbox.io/) -- updated 6 Nov 2018 -- now contains a unit waveforms image.
 
 ## Misc links:
