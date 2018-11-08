@@ -38,12 +38,18 @@ The source code for [this API is here](https://github.com/magland/spikeforest/bl
 
 * [Load SpikeForest studies and datasets in JavaScript](https://codesandbox.io/s/w7pp32vo0w) -- [The live web page](https://w7pp32vo0w.codesandbox.io/) -- updated 6 Nov 2018 -- now contains a unit waveforms image.
 
+## Meeting notes
+
+* [Meeting notes](meeting_notes.md)
+
 ## Misc links:
 
 * [MountainSort](mountainsort.md)
 * [MountainLab](mountainlab.md)
 * [KBucket](kbucket.md)
 * [SpikeForest python package](https://github.com/magland/spikeforest)
+
+
 
 ## More technical info
 
