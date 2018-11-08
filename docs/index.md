@@ -12,7 +12,14 @@ You can view these docs either on the [hosted website](https://users.flatironins
 * [Running MountainSort directly from python](https://gist.github.com/magland/ee686398228a16adf8b95af4edde096b) -- [live notebook](https://colab.research.google.com/gist/magland/ee686398228a16adf8b95af4edde096b)
 * [Overview of KBucket and SpikeForest](https://gist.github.com/magland/318c7bc43df9dd528f667589eaa2482d) -- [live notebook](https://colab.research.google.com/gist/magland/318c7bc43df9dd528f667589eaa2482d)
 
+## Batch processing
+
+Since processing loads data from kbucket and saves data back to kbucket, it can be performed on any computer. The scripts are written such that parallelization is achieved by running the same script simultaneously on many different cores / compute nodes. The current scripts used for processing [are found here](https://github.com/magland/spikeforest/tree/master/spikeforest/sf_batch). The documentation for these scripts is in the process of being assembled [TODO].
+
 ## SpikeForest processing notebooks
+
+**This section needs to be revised -- the pipeline has been overhauled -- docs are being assembled above**
+
 * Step 1: [Assemble the studies and datasets](https://gist.github.com/magland/4b97b837c594469e48b405066aa5bca5) -- [live notebook](https://colab.research.google.com/gist/magland/4b97b837c594469e48b405066aa5bca5/prepare_studies.ipynb)
 * Step 2: [Process the datasets](https://gist.github.com/magland/9d9d1a0a58aa694d5c2e71e3717dd1ef#file-notebook-ipynb) -- [live notebook](https://colab.research.google.com/gist/magland/9d9d1a0a58aa694d5c2e71e3717dd1ef) -- updated 3 Nov 2018 -- see docs on the .ipynb discussing parallelization
 * Step 3: [Sort the datasets](https://gist.github.com/magland/3ba2b1fe6ff138deba0edaedb5de5867#file-notebook-ipynb) -- [live notebook](https://colab.research.google.com/gist/magland/3ba2b1fe6ff138deba0edaedb5de5867) -- added 6 Nov 2018
