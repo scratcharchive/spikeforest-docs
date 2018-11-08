@@ -35,3 +35,11 @@ Number of units with accuracy over a threshhold, this would be interactively set
 Blue = great red = junk.
 on this heatmap.
 normalize colors across the rows rather than overall.
+
+Jeremy -> Liz
+Here's the gist: https://gist.github.com/magland/59990693052fbe8d65c0c53223a49748
+And the corresponding live notebook: https://colab.research.google.com/gist/magland/59990693052fbe8d65c0c53223a49748/load_spikeforest_accuracies.ipynb (edited)
+
+So right now the 2 batches to load are:
+key=dict(batch_name='ms4_magland_synth')
+key=dict(batch_name='ironclust_magland_synth')
