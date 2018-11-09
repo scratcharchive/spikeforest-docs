@@ -14,7 +14,7 @@ You can view these docs either on the [hosted website](https://users.flatironins
 
 ## Assembling the recordings and studies
 
-The following notebook is used to assemble the recordings and studies that populate the website and to provide the input to the batch processing: https://colab.research.google.com/gist/magland/4b97b837c594469e48b405066aa5bca5/prepare_studies.ipynb
+The following notebook is used to assemble the recordings and studies that populate the website and to provide the input to the batch processing: [live notebook](https://colab.research.google.com/gist/magland/4b97b837c594469e48b405066aa5bca5/prepare_studies.ipynb), and the [corresponding gist](https://gist.github.com/magland/4b97b837c594469e48b405066aa5bca5).
 
 ## Batch processing
 
