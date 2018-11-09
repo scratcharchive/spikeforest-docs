@@ -12,6 +12,10 @@ You can view these docs either on the [hosted website](https://users.flatironins
 * [Running MountainSort directly from python](https://gist.github.com/magland/ee686398228a16adf8b95af4edde096b) -- [live notebook](https://colab.research.google.com/gist/magland/ee686398228a16adf8b95af4edde096b)
 * [Overview of KBucket and SpikeForest](https://gist.github.com/magland/318c7bc43df9dd528f667589eaa2482d) -- [live notebook](https://colab.research.google.com/gist/magland/318c7bc43df9dd528f667589eaa2482d)
 
+## Assembling the recordings and studies
+
+The following notebook is used to assemble the recordings and studies that populate the website and to provide the input to the batch processing: https://colab.research.google.com/gist/magland/4b97b837c594469e48b405066aa5bca5/prepare_studies.ipynb
+
 ## Batch processing
 
 Since processing loads data from kbucket and saves data back to kbucket, it can be performed on any computer. The scripts are written such that parallelization is achieved by running the same script simultaneously on many different cores / compute nodes. The pairio database is used to coordinate the jobs so that each script will perform different sorting jobs. The current scripts used for processing [are found here](https://github.com/magland/spikeforest/tree/master/spikeforest/sf_batch). The documentation for these scripts is in the process of being assembled [TODO].
