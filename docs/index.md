@@ -20,6 +20,8 @@ The following notebook is used to assemble the recordings and studies that popul
 
 Since processing loads data from kbucket and saves data back to kbucket, it can be performed on any computer. The scripts are written such that parallelization is achieved by running the same script simultaneously on many different cores / compute nodes. The pairio database is used to coordinate the jobs so that each script will perform different sorting jobs. The current scripts used for processing [are found here](https://github.com/magland/spikeforest/tree/master/spikeforest/sf_batch). The documentation for these scripts is in the process of being assembled [TODO].
 
+The various batches are configured here: [live notebook](https://colab.research.google.com/gist/magland/c40219c54c87771f67cb392ac23c6444/prepare_batches.ipynb)
+
 ## Exploring processing results
 
 The sorting results of SpikeForest can be inspected from any python notebook using the SpikeForest python API. An example of using this API [in this live notebook](https://colab.research.google.com/gist/magland/1028fc92568c86f6b5a6e56766f9a8f1/explore_spikeforest_results.ipynb), and the [corresponding gist](https://gist.github.com/magland/1028fc92568c86f6b5a6e56766f9a8f1#file-explore_spikeforest_results-ipynb).
