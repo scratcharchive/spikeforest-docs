@@ -32,6 +32,10 @@ The studies and sorting results of SpikeForest can be browsed/explored from any 
 
 The source code for [this API is here](https://github.com/magland/spikeforest/blob/master/spikeforest/sfdata/sfdata.py) (TODO: document this API).
 
+Here's a notebook for plotting accuracy vs SNR for various algorithms:
+
+* sf_comparison_plots.ipynb [live notebook](https://colab.research.google.com/gist/magland/5c82306f20aa2a81ba9d429b5e1d3c23/sf_comparison_plots.ipynb) | [gist](https://gist.github.com/magland/5c82306f20aa2a81ba9d429b5e1d3c23#file-sf_comparison_plots-ipynb)
+
 ## Loading data from JavaScript
 
 **TODO: this section needs to be expanded to describe how to load spike sorting results**
