@@ -28,7 +28,7 @@ Processing is organized in batches that are stored on kbucket. An online noteboo
 
 The studies and sorting results of SpikeForest can be browsed/explored from any python notebook using the SpikeForest python API. An example of this is found in the below notebook.
 
-* explore_spikeforest_results.ipynb [live notebook](https://colab.research.google.com/gist/magland/1028fc92568c86f6b5a6e56766f9a8f1/explore_spikeforest_results.ipynb) | [gist](https://gist.github.com/magland/1028fc92568c86f6b5a6e56766f9a8f1#file-explore_spikeforest_results-ipynb)
+* explore_spikeforest_results.ipynb [live notebook](https://colab.research.google.com/gist/magland/ec67d20c0a2c93ce2b6bc452d041783b/explore_spikeforest_results.ipynb) | [gist](https://gist.github.com/magland/ec67d20c0a2c93ce2b6bc452d041783b#file-explore_spikeforest_results-ipynb)
 
 The source code for [this API is here](https://github.com/magland/spikeforest/blob/master/spikeforest/sfdata/sfdata.py) (TODO: document this API).
 
