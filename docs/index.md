@@ -24,17 +24,23 @@ Processing is organized in batches that are stored on kbucket. An online noteboo
 
 * sf_prepare_batches.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/1a35e661f783aa97e4b31f67075fe12f/sf_prepare_batches.ipynb) | [gist](https://gist.github.com/magland/1a35e661f783aa97e4b31f67075fe12f) -- Defines the batches for processing
 
+## Assemble data for website
+
+After processing, the data for the website is assembled using the following notebook:
+
+* assemble_website_data.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/436ec4c0bcd2958d170c3d5300faf8da/assemble_website_data.ipynb) | [gist](https://gist.github.com/magland/436ec4c0bcd2958d170c3d5300faf8da#file-assemble_website_data-ipynb)
+
 ## Exploring studies and processing results
 
 The studies and sorting results of SpikeForest can be browsed/explored from any python notebook using the SpikeForest python API. An example of this is found in the below notebook.
 
-* explore_spikeforest_results.ipynb [live notebook](https://colab.research.google.com/gist/magland/ec67d20c0a2c93ce2b6bc452d041783b/explore_spikeforest_results.ipynb) | [gist](https://gist.github.com/magland/ec67d20c0a2c93ce2b6bc452d041783b#file-explore_spikeforest_results-ipynb)
+* explore_spikeforest_results.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/ec67d20c0a2c93ce2b6bc452d041783b/explore_spikeforest_results.ipynb) | [gist](https://gist.github.com/magland/ec67d20c0a2c93ce2b6bc452d041783b#file-explore_spikeforest_results-ipynb)
 
 The source code for [this API is here](https://github.com/magland/spikeforest/blob/master/spikeforest/sfdata/sfdata.py) (TODO: document this API).
 
 Here's a notebook for plotting accuracy vs SNR for various algorithms:
 
-* sf_comparison_plots.ipynb [live notebook](https://colab.research.google.com/gist/magland/5c82306f20aa2a81ba9d429b5e1d3c23/sf_comparison_plots.ipynb) | [gist](https://gist.github.com/magland/5c82306f20aa2a81ba9d429b5e1d3c23#file-sf_comparison_plots-ipynb)
+* sf_comparison_plots.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/5c82306f20aa2a81ba9d429b5e1d3c23/sf_comparison_plots.ipynb) | [gist](https://gist.github.com/magland/5c82306f20aa2a81ba9d429b5e1d3c23#file-sf_comparison_plots-ipynb)
 
 ## Loading data from JavaScript
 
