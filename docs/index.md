@@ -2,7 +2,7 @@
 
 SpikeForest is an open-source benchmarking website for spike sorting algorithms. The front end is [under development here](https://github.com/elovero/spike-front).
 
-You can view these docs either on the [hosted website](https://users.flatironinstitute.org/~magland/docs/) or on the [github repo](https://github.com/magland/docs/blob/master/docs/index.md).
+You can view these docs either on the [hosted website](https://users.flatironinstitute.org/~magland/spikeforest-docs/) or on the [github repo](https://github.com/flatironinstitute/spikeforest-docs/blob/master/docs/index.md).
 
 [Overview of the system](overview.md) -- in progress
 
