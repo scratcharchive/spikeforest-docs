@@ -44,7 +44,7 @@ Here's a notebook for plotting accuracy vs SNR for various algorithms:
 
 ## Loading data from JavaScript
 
-**TODO: this section needs to be expanded to describe how to load spike sorting results**
+**NOTE: THIS SECTION IS MOSTLY OBSOLETE**
 
 * [Load SpikeForest studies and datasets in JavaScript](https://codesandbox.io/s/w7pp32vo0w) -- [The live web page](https://w7pp32vo0w.codesandbox.io/) -- updated 6 Nov 2018 -- now contains a unit waveforms image.
 
