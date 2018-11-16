@@ -1,8 +1,4 @@
-site_name: Docs
+site_name: SpikeForest Documentation
 nav:
     - Home: index.md
-    - MountainSort: mountainsort.md
-    - MountainLab: mountainlab.md
-    - KBucket: kbucket.md
-    - SpikeForest: spikeforest.md
 
