@@ -12,6 +12,12 @@ You can view these docs either on the [hosted website](https://users.flatironins
 * [Overview of KBucket and SpikeForest](https://gist.github.com/magland/318c7bc43df9dd528f667589eaa2482d) -- [live notebook](https://colab.research.google.com/gist/magland/318c7bc43df9dd528f667589eaa2482d)
 * (OLD) [Overview of SpikeInterface, SpikeWidgets, and SpikeToolkit](https://gist.github.com/magland/e43542fe2dfe856fd04903b9ff1f8e4e) -- [live notebook](https://colab.research.google.com/gist/magland/e43542fe2dfe856fd04903b9ff1f8e4e)
 
+## Analyses
+
+Bionet complete analysis -- [live notebook](https://colab.research.google.com/gist/magland/b94a383de5861ff7fc55c5973412a73b/spikeforest_bionet_analysis.ipynb)
+
+This includes preparing recordings, summarizing recordings, browsing recordings, running spike sorting, browsing sorting results, and aggregating sorting results.
+
 ## Assembling the recordings and studies
 
 The following notebook is used to assemble the recordings and studies that populate the website and to provide the input to the batch processing.
