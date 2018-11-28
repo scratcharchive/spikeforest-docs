@@ -42,6 +42,10 @@ Here's a notebook for plotting accuracy vs SNR for various algorithms:
 
 * sf_comparison_plots.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/5c82306f20aa2a81ba9d429b5e1d3c23/sf_comparison_plots.ipynb) | [gist](https://gist.github.com/magland/5c82306f20aa2a81ba9d429b5e1d3c23#file-sf_comparison_plots-ipynb)
 
+## Configuring kbucket
+
+The following notebook shows how kbucket/pairio are configured (password protected, etc): [live notebook](https://colab.research.google.com/gist/magland/b4e675106063f0dd763b24c93d2ec395/kbucket_config.ipynb#scrollTo=VBb8P_kfos7x)
+
 ## Loading data from JavaScript
 
 **NOTE: THIS SECTION IS MOSTLY OBSOLETE**
