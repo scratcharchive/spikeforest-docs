@@ -8,9 +8,9 @@ You can view these docs either on the [hosted website](https://users.flatironins
 
 ## Overview notebooks
 
-* [Overview of SpikeInterface, SpikeWidgets, and SpikeToolkit](https://gist.github.com/magland/e43542fe2dfe856fd04903b9ff1f8e4e) -- [live notebook](https://colab.research.google.com/gist/magland/e43542fe2dfe856fd04903b9ff1f8e4e)
 * [Running MountainSort directly from python](https://gist.github.com/magland/ee686398228a16adf8b95af4edde096b) -- [live notebook](https://colab.research.google.com/gist/magland/ee686398228a16adf8b95af4edde096b)
 * [Overview of KBucket and SpikeForest](https://gist.github.com/magland/318c7bc43df9dd528f667589eaa2482d) -- [live notebook](https://colab.research.google.com/gist/magland/318c7bc43df9dd528f667589eaa2482d)
+* (OLD) [Overview of SpikeInterface, SpikeWidgets, and SpikeToolkit](https://gist.github.com/magland/e43542fe2dfe856fd04903b9ff1f8e4e) -- [live notebook](https://colab.research.google.com/gist/magland/e43542fe2dfe856fd04903b9ff1f8e4e)
 
 ## Assembling the recordings and studies
 
