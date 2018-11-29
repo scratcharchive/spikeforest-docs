@@ -14,21 +14,9 @@ You can view these docs either on the [hosted website](https://users.flatironins
 
 ## Analyses
 
-Bionet complete analysis -- [live notebook](https://colab.research.google.com/gist/magland/b94a383de5861ff7fc55c5973412a73b/spikeforest_bionet_analysis.ipynb)
+Complete analysis -- [live notebook](https://colab.research.google.com/gist/magland/6c31c54e4151c0ebdb4b93aad3eb1807/spikeforest_analysis.ipynb)
 
-This includes preparing recordings, summarizing recordings, browsing recordings, running spike sorting, browsing sorting results, and aggregating sorting results.
-
-## Assembling the recordings and studies
-
-The following notebook is used to assemble the recordings and studies that populate the website and to provide the input to the batch processing.
-
-* prepare_studies.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/4b97b837c594469e48b405066aa5bca5/prepare_studies.ipynb) | [gist](https://gist.github.com/magland/4b97b837c594469e48b405066aa5bca5)
-
-## Batch processing
-
-Processing is organized in batches that are stored on kbucket. An online notebook is used to assemble the batches. The batch processing can then be launched on any computer, for example a compute cluster. The scripts are written such that parallelization is achieved by running the same script simultaneously on many different cores / compute nodes. The pairio database is used to coordinate the jobs so that each script will perform different sorting jobs.
-
-* sf_prepare_batches.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/1a35e661f783aa97e4b31f67075fe12f/sf_prepare_batches.ipynb) | [gist](https://gist.github.com/magland/1a35e661f783aa97e4b31f67075fe12f) -- Defines the batches for processing
+The complete analysis includes preparing recordings, summarizing recordings, browsing recordings, running spike sorting, browsing sorting results, and aggregating sorting results.
 
 ## Assemble data for website
 
@@ -51,6 +39,22 @@ Here's a notebook for plotting accuracy vs SNR for various algorithms:
 ## Configuring kbucket
 
 The following notebook shows how kbucket/pairio are configured (password protected, etc): [live notebook](https://colab.research.google.com/gist/magland/b4e675106063f0dd763b24c93d2ec395/kbucket_config.ipynb)
+
+## Assembling the recordings and studies
+
+**Obsolete -- see Analysis above**
+
+The following notebook is used to assemble the recordings and studies that populate the website and to provide the input to the batch processing.
+
+* prepare_studies.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/4b97b837c594469e48b405066aa5bca5/prepare_studies.ipynb) | [gist](https://gist.github.com/magland/4b97b837c594469e48b405066aa5bca5)
+
+## Batch processing
+
+**Obsolete -- see Analysis above**
+
+Processing is organized in batches that are stored on kbucket. An online notebook is used to assemble the batches. The batch processing can then be launched on any computer, for example a compute cluster. The scripts are written such that parallelization is achieved by running the same script simultaneously on many different cores / compute nodes. The pairio database is used to coordinate the jobs so that each script will perform different sorting jobs.
+
+* sf_prepare_batches.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/1a35e661f783aa97e4b31f67075fe12f/sf_prepare_batches.ipynb) | [gist](https://gist.github.com/magland/1a35e661f783aa97e4b31f67075fe12f) -- Defines the batches for processing
 
 ## Loading data from JavaScript
 
