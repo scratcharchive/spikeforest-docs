@@ -18,6 +18,8 @@ Complete analysis -- [live notebook](https://colab.research.google.com/gist/magl
 
 The complete analysis includes preparing recordings, summarizing recordings, browsing recordings, running spike sorting, browsing sorting results, and aggregating sorting results.
 
+All the actual processing of batches is handled in this repository: [spikeforest_batch_run](https://github.com/magland/spikeforest_batch_run)
+
 ## Assemble data for website
 
 After processing, the data for the website is assembled using the following notebook:
