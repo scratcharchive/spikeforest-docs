@@ -14,7 +14,7 @@ You can view these docs either on the [hosted website](https://users.flatironins
 
 ## Analyses
 
-Complete analysis -- [live notebook](https://colab.research.google.com/gist/magland/6c31c54e4151c0ebdb4b93aad3eb1807/spikeforest_analysis.ipynb)
+Complete analysis -- [live notebook](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb) or [on github](https://github.com/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb)
 
 The complete analysis includes preparing recordings, summarizing recordings, browsing recordings, running spike sorting, browsing sorting results, and aggregating sorting results.
 
