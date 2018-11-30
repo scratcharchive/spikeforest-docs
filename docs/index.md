@@ -6,27 +6,30 @@ You can view these docs either on the [hosted website](https://users.flatironins
 
 [Overview of the system](overview.md) -- in progress
 
+## Analysis
+
+The SpikeForest analysis consists of preparing the studies and recordings, summarizing the recordings, running spike sorting, comparing with ground truth, and assembling all the results for the front-end (website). For now, all source code for performing these actions is contained in the [spikeforest_batch_run](https://github.com/magland/spikeforest_batch_run) repository.
+
+**Live notebooks:**
+
+* Main analysis: [spikeforest_analysis.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb) or [on github](https://github.com/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb)
+* Assemble data for the website: [assemble_website_data.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/assemble_website_data.ipynb) or [on github](https://github.com/magland/spikeforest_batch_run/blob/master/notebooks/assemble_website_data.ipynb)
+
 ## Overview notebooks
 
 * [Running MountainSort directly from python](https://gist.github.com/magland/ee686398228a16adf8b95af4edde096b) -- [live notebook](https://colab.research.google.com/gist/magland/ee686398228a16adf8b95af4edde096b)
 * [Overview of KBucket and SpikeForest](https://gist.github.com/magland/318c7bc43df9dd528f667589eaa2482d) -- [live notebook](https://colab.research.google.com/gist/magland/318c7bc43df9dd528f667589eaa2482d)
 * (OLD) [Overview of SpikeInterface, SpikeWidgets, and SpikeToolkit](https://gist.github.com/magland/e43542fe2dfe856fd04903b9ff1f8e4e) -- [live notebook](https://colab.research.google.com/gist/magland/e43542fe2dfe856fd04903b9ff1f8e4e)
 
-## Analyses
+## Configuring kbucket
 
-Complete analysis -- [live notebook](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb) or [on github](https://github.com/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb)
+**(Advanced)**
 
-The complete analysis includes preparing recordings, summarizing recordings, browsing recordings, running spike sorting, browsing sorting results, and aggregating sorting results.
-
-All the actual processing of batches is handled in this repository: [spikeforest_batch_run](https://github.com/magland/spikeforest_batch_run)
-
-## Assemble data for website
-
-After processing, the data for the website is assembled using the following notebook:
-
-* assemble_website_data.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/436ec4c0bcd2958d170c3d5300faf8da/assemble_website_data.ipynb) | [gist](https://gist.github.com/magland/436ec4c0bcd2958d170c3d5300faf8da#file-assemble_website_data-ipynb)
+The following notebook shows how kbucket/pairio are configured (password protected, etc): [live notebook](https://colab.research.google.com/gist/magland/b4e675106063f0dd763b24c93d2ec395/kbucket_config.ipynb)
 
 ## Exploring studies and processing results
+
+**Somewhat obsolete**
 
 The studies and sorting results of SpikeForest can be browsed/explored from any python notebook using the SpikeForest python API. An example of this is found in the below notebook.
 
@@ -38,9 +41,7 @@ Here's a notebook for plotting accuracy vs SNR for various algorithms:
 
 * sf_comparison_plots.ipynb -- [live notebook](https://colab.research.google.com/gist/magland/5c82306f20aa2a81ba9d429b5e1d3c23/sf_comparison_plots.ipynb) | [gist](https://gist.github.com/magland/5c82306f20aa2a81ba9d429b5e1d3c23#file-sf_comparison_plots-ipynb)
 
-## Configuring kbucket
 
-The following notebook shows how kbucket/pairio are configured (password protected, etc): [live notebook](https://colab.research.google.com/gist/magland/b4e675106063f0dd763b24c93d2ec395/kbucket_config.ipynb)
 
 ## Assembling the recordings and studies
 
