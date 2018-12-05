@@ -14,6 +14,7 @@ The SpikeForest analysis consists of preparing the studies and recordings, summa
 
 * Main analysis: [spikeforest_analysis.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb) or [on github](https://github.com/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb)
 * Assemble data for the website: [assemble_website_data.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/assemble_website_data.ipynb) or [on github](https://github.com/magland/spikeforest_batch_run/blob/master/notebooks/assemble_website_data.ipynb)
+* Browse recordings: [browse_recordings.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/browse_recordings.ipynb)
 
 ## Overview notebooks
 
