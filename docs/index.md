@@ -4,7 +4,18 @@ SpikeForest is an open-source benchmarking website for spike sorting algorithms.
 
 You can view these docs either on the [hosted website](https://users.flatironinstitute.org/~magland/spikeforest-docs/) or on the [github repo](https://github.com/flatironinstitute/spikeforest-docs/blob/master/docs/index.md).
 
-[Overview of the system](overview.md) -- in progress
+## Updates of 12/11/2018
+
+All the server-side python code has been moved into a single meta repository. For now it is called [spikeforest2](https://github.com/flatironinstitute/spikeforest2), but will ultimately be renamed to "spikeforest". It contains a snapshot of a number of different dependent projects contained in repo/. These may or may not be up-to-date with the associated stand-alone packages. In this way, spikeforest2 is a snapshot project that contains all the necessary code, and is less susceptible to breaking changes in other packages.
+
+The `sf_run_batch` and `sf_run_batch_command` programms are now available from the spikeforest2 repository above.
+
+Some flags that are useful for testing have been added to sf_run_batch and sf_run_batch_command. These include --clear, --test_one, and --mlpr_force_run. More info is available by running
+
+```
+sf_run_batch --help
+sf_run_batch_command --help
+```
 
 ## Analysis
 
@@ -32,6 +43,8 @@ The following notebook shows how kbucket/pairio are configured (password protect
 ## Exploring studies and processing results
 
 **Somewhat obsolete**
+
+[Overview of the system](overview.md) -- in progress
 
 The studies and sorting results of SpikeForest can be browsed/explored from any python notebook using the SpikeForest python API. An example of this is found in the below notebook.
 
