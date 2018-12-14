@@ -21,9 +21,14 @@ sf_run_batch_command --help
 
 The SpikeForest analysis consists of preparing the studies and recordings, summarizing the recordings, running spike sorting, comparing with ground truth, and assembling all the results for the front-end (website). For now, all source code for performing these actions is contained in the [spikeforest_batch_run](https://github.com/magland/spikeforest_batch_run) repository.
 
-**Live notebooks:**
+**Live notebooks (newer):**
 
-* Main analysis: [spikeforest_analysis.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb) or [on github](https://github.com/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb)
+* Main analysis: [spikeforest_analysis2.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis2.ipynb) or [on github](https://github.com/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis2.ipynb)
+
+
+**Live notebooks (older):**
+
+* Main analysis (see newer version above): [spikeforest_analysis.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb) or [on github](https://github.com/magland/spikeforest_batch_run/blob/master/notebooks/spikeforest_analysis.ipynb)
 * Assemble data for the website: [assemble_website_data.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/assemble_website_data.ipynb) or [on github](https://github.com/magland/spikeforest_batch_run/blob/master/notebooks/assemble_website_data.ipynb)
 * Browse recordings: [browse_recordings.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/browse_recordings.ipynb)
 * Monitor batches (work in progress): [monitor_batches.ipynb](https://colab.research.google.com/github/magland/spikeforest_batch_run/blob/master/notebooks/monitor_batches.ipynb)
