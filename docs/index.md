@@ -19,7 +19,7 @@ sf_run_batch_command2 --help
 
 ## Analysis
 
-The SpikeForest analysis consists of preparing the studies and recordings, summarizing the recordings, running spike sorting, comparing with ground truth, and assembling all the results for the front-end (website). For now, all source code for performing these actions is contained in the [spikeforest_batch_run](https://github.com/magland/spikeforest_batch_run) repository.
+The SpikeForest analysis consists of preparing the studies and recordings, summarizing the recordings, running spike sorting, comparing with ground truth, and assembling all the results for the front-end (website). For now, all source code for performing these actions is contained in the [spikeforest2](https://github.com/flatironinstitute/spikeforest2) repository.
 
 **Live notebooks (newer):**
 
