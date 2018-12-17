@@ -4,17 +4,45 @@ SpikeForest is an open-source benchmarking website for spike sorting algorithms.
 
 You can view these docs either on the [hosted website](https://users.flatironinstitute.org/~magland/spikeforest-docs/) or on the [github repo](https://github.com/flatironinstitute/spikeforest-docs/blob/master/docs/index.md).
 
+## Updates of 12/17/2018
+
+Here's the --help for the newest version of sf_run_batch:
+```
+> sf_run_batch --help
+usage: sf_run_batch [-h] [--run_prefix RUN_PREFIX] [--clear]
+                    [--mlpr_force_run] [--job_index JOB_INDEX]
+                    [--parallel PARALLEL] [--repeat] [--delay DELAY]
+                    [batch_names [batch_names ...]]
+
+Run a spikeforest processing batch
+
+positional arguments:
+  batch_names           The names of the batches to run
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --run_prefix       Prefix to run command (e.g., srun -c 2 -n 40 -p ccm)
+  --clear                First clear the jobs so that all jobs are run.
+  --mlpr_force_run      Force run the MountainLab processors
+  --job_index        Only run one job and do not assemble the results
+  --parallel            Number of times to simultaneously do the run command (this is for a single workstation, not using srun).
+  --repeat             Continuously repeat the processing with a delay between successive runs
+  --delay DELAY         Number of seconds to delay between runs (to be used
+```
+
+The powerful combination is --run_prefix (for srun) and --repeat, with a collection of batch_names, because then it will continue checking for modifications to the batches and automatically rerun when needed. This enables launching of processing from the notebooks.
+
 ## Updates of 12/11/2018
 
 All the server-side python code has been moved into a single meta repository. For now it is called [spikeforest2](https://github.com/flatironinstitute/spikeforest2), but will ultimately be renamed to "spikeforest". It contains a snapshot of a number of different dependent projects contained in repo/. These may or may not be up-to-date with the associated stand-alone packages. In this way, spikeforest2 is a snapshot project that contains all the necessary code, and is less susceptible to breaking changes in other packages.
 
-The `sf_run_batch2` and `sf_run_batch_command2` programms are now available from the spikeforest2 repository above.
+The `sf_run_batch` and `sf_run_batch_command` programms are now available from the spikeforest2 repository above.
 
 Some flags that are useful for testing have been added to sf_run_batch and sf_run_batch_command. These include --clear, --job_index, and --mlpr_force_run. More info is available by running
 
 ```
-sf_run_batch2 --help
-sf_run_batch_command2 --help
+sf_run_batch --help
+sf_run_batch_command --help
 ```
 
 ## Analysis
