@@ -51,7 +51,9 @@ The SpikeForest analysis consists of preparing the studies and recordings, summa
 
 **Live notebooks (newer):**
 
-* Main analysis: [spikeforest_analysis2.ipynb](https://colab.research.google.com/github/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb) or [on github](https://github.com/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb)
+* Main analysis (for now it is shared google drive document): [SF2_analysis.ipynb](https://colab.research.google.com/drive/1FRyVQeU_oBhCG9jFaX7sFS6EafR0pwPd#scrollTo=HtbjJUirgm0s)
+
+* Main analysis (old): [spikeforest_analysis2.ipynb](https://colab.research.google.com/github/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb) or [on github](https://github.com/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb)
 
 
 **Live notebooks (older):**
