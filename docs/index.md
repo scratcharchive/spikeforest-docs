@@ -49,16 +49,18 @@ sf_run_batch_command --help
 
 The SpikeForest analysis consists of preparing the studies and recordings, summarizing the recordings, running spike sorting, comparing with ground truth, and assembling all the results for the front-end (website). For now, all source code for performing these actions is contained in the [spikeforest2](https://github.com/flatironinstitute/spikeforest2) repository.
 
-**Live notebooks (newer):**
+**Live notebooks (use these):**
 
 * Main analysis (for now it is shared google drive document): [SF2_analysis.ipynb](https://colab.research.google.com/drive/1FRyVQeU_oBhCG9jFaX7sFS6EafR0pwPd#scrollTo=HtbjJUirgm0s)
 
 * Assemble data for website: [SF2_assemble_website_data.ipynb](https://colab.research.google.com/drive/1h8cbLNctaXmdBQ8kJ0ynnwPd5pjH5fpI)
 
-* Main analysis (old): [spikeforest_analysis2.ipynb](https://colab.research.google.com/github/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb) or [on github](https://github.com/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb)
+* Monitor batches: [monitor_batches.ipynb](https://colab.research.google.com/drive/1KziclRIVO5xc10adflev7HSds7hHgvYH)
 
 
 **Live notebooks (older):**
+
+* Main analysis (old): [spikeforest_analysis2.ipynb](https://colab.research.google.com/github/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb) or [on github](https://github.com/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb)
 
 * Main analysis (see newer version above): [spikeforest_analysis.ipynb](https://colab.research.google.com/github/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis.ipynb) or [on github](https://github.com/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis.ipynb)
 * Assemble data for the website: [assemble_website_data.ipynb](https://colab.research.google.com/github/flatironinstitute/spikeforest-docs/blob/master/notebooks/assemble_website_data.ipynb) or [on github](https://github.com/flatironinstitute/spikeforest-docs/blob/master/notebooks/assemble_website_data.ipynb)
