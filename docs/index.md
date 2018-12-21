@@ -8,7 +8,7 @@ You can view these docs either on the [hosted website](https://users.flatironins
 
 The SpikeForest analysis consists of preparing the studies and recordings, summarizing the recordings, running spike sorting, comparing with ground truth, and assembling all the results for the front-end (website). For now, all source code for performing these actions is contained in the [spikeforest2](https://github.com/flatironinstitute/spikeforest2) repository. You should clone and install that code on your local machine prior to running the following notebooks by connecting to your local runtime.
 
-* Main analysis: [SF2_analysis.ipynb](https://colab.research.google.com/drive/1FRyVQeU_oBhCG9jFaX7sFS6EafR0pwPd#scrollTo=HtbjJUirgm0s)
+* Main analysis: [SF2_analysis_v2.ipynb](https://colab.research.google.com/drive/1-K44BQrGNpsYQPBZzAVxiasocncT9YRd)
 
 * Assemble data for website: [SF2_assemble_website_data.ipynb](https://colab.research.google.com/drive/1h8cbLNctaXmdBQ8kJ0ynnwPd5pjH5fpI)
 
@@ -57,7 +57,9 @@ sf_run_batch_command --help
 
 **Live notebooks (older):**
 
-* Main analysis (old): [spikeforest_analysis2.ipynb](https://colab.research.google.com/github/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb) or [on github](https://github.com/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb)
+* Main analysis (old): [SF2_analysis.ipynb](https://colab.research.google.com/drive/1FRyVQeU_oBhCG9jFaX7sFS6EafR0pwPd)
+
+* Main analysis (old2): [spikeforest_analysis2.ipynb](https://colab.research.google.com/github/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb) or [on github](https://github.com/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis2.ipynb)
 
 * Main analysis (see newer version above): [spikeforest_analysis.ipynb](https://colab.research.google.com/github/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis.ipynb) or [on github](https://github.com/flatironinstitute/spikeforest-docs/blob/master/notebooks/spikeforest_analysis.ipynb)
 * Assemble data for the website: [assemble_website_data.ipynb](https://colab.research.google.com/github/flatironinstitute/spikeforest-docs/blob/master/notebooks/assemble_website_data.ipynb) or [on github](https://github.com/flatironinstitute/spikeforest-docs/blob/master/notebooks/assemble_website_data.ipynb)
