@@ -4,6 +4,16 @@ SpikeForest is an open-source benchmarking website for spike sorting algorithms.
 
 You can view these docs either on the [hosted website](https://users.flatironinstitute.org/~magland/spikeforest-docs/) or on the [github repo](https://github.com/flatironinstitute/spikeforest-docs/blob/master/docs/index.md).
 
+## Analysis notebooks
+
+The SpikeForest analysis consists of preparing the studies and recordings, summarizing the recordings, running spike sorting, comparing with ground truth, and assembling all the results for the front-end (website). For now, all source code for performing these actions is contained in the [spikeforest2](https://github.com/flatironinstitute/spikeforest2) repository. You should clone and install that code on your local machine prior to running the following notebooks by connecting to your local runtime.
+
+* Main analysis: [SF2_analysis.ipynb](https://colab.research.google.com/drive/1FRyVQeU_oBhCG9jFaX7sFS6EafR0pwPd#scrollTo=HtbjJUirgm0s)
+
+* Assemble data for website: [SF2_assemble_website_data.ipynb](https://colab.research.google.com/drive/1h8cbLNctaXmdBQ8kJ0ynnwPd5pjH5fpI)
+
+* Monitor batches: [monitor_batches.ipynb](https://colab.research.google.com/drive/1KziclRIVO5xc10adflev7HSds7hHgvYH)
+
 ## Updates of 12/17/2018
 
 Here's the --help for the newest version of sf_run_batch:
@@ -44,19 +54,6 @@ Some flags that are useful for testing have been added to sf_run_batch and sf_ru
 sf_run_batch --help
 sf_run_batch_command --help
 ```
-
-## Analysis
-
-The SpikeForest analysis consists of preparing the studies and recordings, summarizing the recordings, running spike sorting, comparing with ground truth, and assembling all the results for the front-end (website). For now, all source code for performing these actions is contained in the [spikeforest2](https://github.com/flatironinstitute/spikeforest2) repository.
-
-**Live notebooks (use these):**
-
-* Main analysis (for now it is shared google drive document): [SF2_analysis.ipynb](https://colab.research.google.com/drive/1FRyVQeU_oBhCG9jFaX7sFS6EafR0pwPd#scrollTo=HtbjJUirgm0s)
-
-* Assemble data for website: [SF2_assemble_website_data.ipynb](https://colab.research.google.com/drive/1h8cbLNctaXmdBQ8kJ0ynnwPd5pjH5fpI)
-
-* Monitor batches: [monitor_batches.ipynb](https://colab.research.google.com/drive/1KziclRIVO5xc10adflev7HSds7hHgvYH)
-
 
 **Live notebooks (older):**
 
