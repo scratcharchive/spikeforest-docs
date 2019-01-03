@@ -12,7 +12,9 @@ The SpikeForest analysis consists of preparing the studies and recordings, summa
 
 * Assemble data for website: [SF2_assemble_website_data.ipynb](https://colab.research.google.com/drive/1h8cbLNctaXmdBQ8kJ0ynnwPd5pjH5fpI)
 
-* Monitor batches: [monitor_batches.ipynb](https://colab.research.google.com/drive/1KziclRIVO5xc10adflev7HSds7hHgvYH)
+* Monitor batches website: [monitor_batches website](http://45.56.103.237:3001/)
+
+* Monitor batches (old): [monitor_batches.ipynb](https://colab.research.google.com/drive/1KziclRIVO5xc10adflev7HSds7hHgvYH)
 
 ## Updates of 12/17/2018
 
