@@ -16,6 +16,8 @@ The SpikeForest analysis consists of preparing the studies and recordings, summa
 
 * SpikeForest dev website (sfbrowser): [sfbrowser website](http://45.56.103.237:4002)
 
+* Browse recordings website: [browse_recordings website](http://45.56.103.237:4004)
+
 ## Updates of 12/17/2018
 
 Here's the --help for the newest version of sf_run_batch:
