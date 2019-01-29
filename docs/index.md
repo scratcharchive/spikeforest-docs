@@ -4,7 +4,7 @@ SpikeForest is an open-source benchmarking website for spike sorting algorithms.
 
 You can view these docs either on the [hosted website](https://users.flatironinstitute.org/~magland/spikeforest-docs/) or on the [github repo](https://github.com/flatironinstitute/spikeforest-docs/blob/master/docs/index.md).
 
-## Analysis notebooks
+## Analysis notebooks and websites
 
 The SpikeForest analysis consists of preparing the studies and recordings, summarizing the recordings, running spike sorting, comparing with ground truth, and assembling all the results for the front-end (website). For now, all source code for performing these actions is contained in the [spikeforest2](https://github.com/flatironinstitute/spikeforest2) repository. You should clone and install that code on your local machine prior to running the following notebooks by connecting to your local runtime.
 
@@ -12,9 +12,9 @@ The SpikeForest analysis consists of preparing the studies and recordings, summa
 
 * Assemble data for website: [SF2_assemble_website_data.ipynb](https://colab.research.google.com/drive/1h8cbLNctaXmdBQ8kJ0ynnwPd5pjH5fpI)
 
-* Monitor batches website: [monitor_batches website](http://45.56.103.237:3001/)
+* Monitor batches website: [monitor_batches website](http://45.56.103.237:4003)
 
-* Monitor batches (old): [monitor_batches.ipynb](https://colab.research.google.com/drive/1KziclRIVO5xc10adflev7HSds7hHgvYH)
+* SpikeForest dev website (sfbrowser): [monitor_batches website](http://45.56.103.237:4002)
 
 ## Updates of 12/17/2018
 
