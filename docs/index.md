@@ -14,7 +14,7 @@ The SpikeForest analysis consists of preparing the studies and recordings, summa
 
 * Monitor batches website: [monitor_batches website](http://45.56.103.237:4003)
 
-* SpikeForest dev website (sfbrowser): [monitor_batches website](http://45.56.103.237:4002)
+* SpikeForest dev website (sfbrowser): [sfbrowser website](http://45.56.103.237:4002)
 
 ## Updates of 12/17/2018
 
