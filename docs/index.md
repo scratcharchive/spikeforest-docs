@@ -12,11 +12,13 @@ The SpikeForest analysis consists of preparing the studies and recordings, summa
 
 * Assemble data for website: [SF2_assemble_website_data.ipynb](https://colab.research.google.com/drive/1h8cbLNctaXmdBQ8kJ0ynnwPd5pjH5fpI)
 
-* Monitor batches website: [monitor_batches website](http://45.56.103.237:4003)
+* Monitor batches website: [monitor_batches website](http://ccmlin008:4003)
 
-* SpikeForest dev website (sfbrowser): [sfbrowser website](http://45.56.103.237:4002)
+* SpikeForest dev website (sfbrowser): [sfbrowser website](http://ccmlin008:4002)
 
-* Browse recordings website: [browse_recordings website](http://45.56.103.237:4004)
+* Browse recordings website: [browse_recordings website](http://ccmlin008:4004)
+
+* Sorting result explorer: [sorting result explorer website](http://ccmlin008:4005)
 
 ## Updates of 12/17/2018
 
