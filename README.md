@@ -1,3 +1,5 @@
+# THIS REPO HAS BEEN ARCHIVED. DO NOT USE.
+
 # docs
 
 Miscellaneous documentation for projects related to spikeforest.
